@@ -1,0 +1,14 @@
+<h3 mat-dialog-title><mat-icon>fingerprint</mat-icon> Login</h3>
+<div mat-dialog-content>
+  <form [formGroup]="formGroup" (keyup)="keyup($event.keyCode)" autocomplete="off" novalidate>
+    <mat-form-field>
+      <input id="username" class="" type="text" placeholder="Username" required matInput formControlName="username" />
+      <mat-error *ngIf="formGroup.get('username').getError('required')">Please enter a Username</mat-error>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-raised-button matTooltip="OK" color="accent" (click)="keyup(13)">
+    <mat-icon>check</mat-icon> OK
+  </button>
+</div>

@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+#header {
+  @include mat-elevation(6);
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}

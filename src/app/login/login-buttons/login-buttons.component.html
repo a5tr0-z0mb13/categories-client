@@ -1,0 +1,13 @@
+<ng-container *ngIf="loginService.isLoggedIn; else loggedOut;">
+  <button id="logout-button" mat-menu-item (click)="logout()">
+    <mat-icon>exit_to_app</mat-icon>
+    <span>Logout</span>
+  </button>
+</ng-container>
+
+<ng-template #loggedOut>
+  <button id="login-button" mat-menu-item (click)="openDialog()">
+    <mat-icon>fingerpint</mat-icon>
+    <span>Login</span>
+  </button>
+</ng-template>

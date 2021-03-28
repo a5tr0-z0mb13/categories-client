@@ -1,0 +1,20 @@
+<mat-toolbar id="header" fxLayout="row">
+  <h1>Categories</h1>
+
+  <div fxFlex>
+  </div>
+
+  <button mat-icon-button [mat-menu-trigger-for]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <app-login-buttons></app-login-buttons>
+  </mat-menu>
+</mat-toolbar>
+
+<router-outlet>
+</router-outlet>
+
+<mat-toolbar id="footer">
+</mat-toolbar>
