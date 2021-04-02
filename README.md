@@ -1,8 +1,10 @@
 # CategoriesClient
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+
 ## Background
 
-Technical test, set as part of the application process for a software engineering consultancy. Comes in two parts: CategoriesClient (this) and [CategoriesServer](https://github.com/a5tr0-z0mb13/categories-server) - A [NestJS](https://nestjs.com/) application.
+Technical test, set as part of the application process for a software engineering consultancy. Comes in two parts: CategoriesClient (this) and [CategoriesServer](https://github.com/a5tr0-z0mb13/categories-server) - A [NestJS](https://nestjs.com/) application. The test was timeboxed to four hours.
 
 ## Requirements
 
@@ -11,8 +13,6 @@ Create an application which will allow at least two users to log in simultaneous
 ## User Journeys
 
 Mark wants to keep track of his belongings. He logs in, and is presented with a list of categories, showing the different levels visually. He adds “Electronics”, and under that, “Televisions”. To this category he adds the items “49-inch LCD”, “40-inch plasma”, and “32-inch CRT”. Sandy logs in and creates “Gaming consoles”, and under this, the items “PS4 Pro”, “XBox One X”, and “Nintendo Switch”. Mark sees Sandy’s entries appear. He edits “Gaming consoles” to sit under “Electronics”. This change appears on Sandy’s screen as soon as he has done it.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
 
