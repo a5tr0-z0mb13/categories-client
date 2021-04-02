@@ -2,7 +2,7 @@
 
 ## Background
 
-Technical test, set as part of the application process for a software engineering consultancy. Comes in two parts: CategoriesClient (this) and CategoriesServer - A NestJS application.
+Technical test, set as part of the application process for a software engineering consultancy. Comes in two parts: CategoriesClient (this) and [CategoriesServer](https://github.com/a5tr0-z0mb13/categories-server) - A [NestJS](https://nestjs.com/) application.
 
 ## Requirements
 
